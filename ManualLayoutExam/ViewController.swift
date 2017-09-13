@@ -10,16 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var aButton: UIButton!
+    @IBOutlet weak var bButton: UIButton!
+    @IBOutlet weak var cButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.aButton.addTarget(self, action: #selector(aButtonPressed), for: UIControlEvents.touchUpInside)
+        self.bButton.addTarget(self, action: #selector(bButtonPressed), for: UIControlEvents.touchUpInside)
+        self.cButton.addTarget(self, action: #selector(cButtonPressed), for: UIControlEvents.touchUpInside)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func aButtonPressed() {
+        let vc = AViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
+    @objc func bButtonPressed() {
+        let vc = BViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+
+    @objc func cButtonPressed() {
+        let vc = CViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 
 }
 
