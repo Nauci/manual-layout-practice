@@ -8,26 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E4108CD01F69B03700EBFF27 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4108CCF1F69B03700EBFF27 /* BViewController.swift */; };
-		E4108CD21F69D68200EBFF27 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4108CD11F69D68200EBFF27 /* CViewController.swift */; };
 		E49826CB1F68AD9B00DCA59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49826CA1F68AD9B00DCA59F /* AppDelegate.swift */; };
-		E49826CD1F68AD9B00DCA59F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49826CC1F68AD9B00DCA59F /* ViewController.swift */; };
 		E49826D21F68AD9B00DCA59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49826D11F68AD9B00DCA59F /* Assets.xcassets */; };
 		E49826D51F68AD9B00DCA59F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49826D31F68AD9B00DCA59F /* LaunchScreen.storyboard */; };
 		E49826DE1F68ADD600DCA59F /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49826DD1F68ADD600DCA59F /* AViewController.swift */; };
-		E49826E01F68AE1600DCA59F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49826DF1F68AE1600DCA59F /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4108CCF1F69B03700EBFF27 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
-		E4108CD11F69D68200EBFF27 /* CViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
-		E49826C71F68AD9B00DCA59F /* ManualLayoutExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualLayoutExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49826C71F68AD9B00DCA59F /* ManualLayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualLayoutPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49826CA1F68AD9B00DCA59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E49826CC1F68AD9B00DCA59F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E49826D11F68AD9B00DCA59F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49826D41F68AD9B00DCA59F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E49826D61F68AD9B00DCA59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49826DD1F68ADD600DCA59F /* AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
-		E49826DF1F68AE1600DCA59F /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +38,7 @@
 		E49826BE1F68AD9B00DCA59F = {
 			isa = PBXGroup;
 			children = (
-				E49826C91F68AD9B00DCA59F /* ManualLayoutExam */,
+				E49826C91F68AD9B00DCA59F /* ManualLayoutPractice */,
 				E49826C81F68AD9B00DCA59F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +46,12 @@
 		E49826C81F68AD9B00DCA59F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E49826C71F68AD9B00DCA59F /* ManualLayoutExam.app */,
+				E49826C71F68AD9B00DCA59F /* ManualLayoutPractice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E49826C91F68AD9B00DCA59F /* ManualLayoutExam */ = {
+		E49826C91F68AD9B00DCA59F /* ManualLayoutPractice */ = {
 			isa = PBXGroup;
 			children = (
 				E49826DC1F68ADC800DCA59F /* View Controllers */,
@@ -66,17 +60,14 @@
 				E49826D31F68AD9B00DCA59F /* LaunchScreen.storyboard */,
 				E49826D61F68AD9B00DCA59F /* Info.plist */,
 			);
-			path = ManualLayoutExam;
+			path = ManualLayoutPractice;
 			sourceTree = "<group>";
 		};
 		E49826DC1F68ADC800DCA59F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E49826CC1F68AD9B00DCA59F /* ViewController.swift */,
-				E49826DF1F68AE1600DCA59F /* ViewController.xib */,
 				E49826DD1F68ADD600DCA59F /* AViewController.swift */,
 				E4108CCF1F69B03700EBFF27 /* BViewController.swift */,
-				E4108CD11F69D68200EBFF27 /* CViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -84,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E49826C61F68AD9B00DCA59F /* ManualLayoutExam */ = {
+		E49826C61F68AD9B00DCA59F /* ManualLayoutPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E49826D91F68AD9B00DCA59F /* Build configuration list for PBXNativeTarget "ManualLayoutExam" */;
+			buildConfigurationList = E49826D91F68AD9B00DCA59F /* Build configuration list for PBXNativeTarget "ManualLayoutPractice" */;
 			buildPhases = (
 				E49826C31F68AD9B00DCA59F /* Sources */,
 				E49826C41F68AD9B00DCA59F /* Frameworks */,
@@ -96,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = ManualLayoutExam;
+			name = ManualLayoutPractice;
 			productName = ManualLayoutExam;
-			productReference = E49826C71F68AD9B00DCA59F /* ManualLayoutExam.app */;
+			productReference = E49826C71F68AD9B00DCA59F /* ManualLayoutPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E49826C21F68AD9B00DCA59F /* Build configuration list for PBXProject "ManualLayoutExam" */;
+			buildConfigurationList = E49826C21F68AD9B00DCA59F /* Build configuration list for PBXProject "ManualLayoutPractice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -130,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E49826C61F68AD9B00DCA59F /* ManualLayoutExam */,
+				E49826C61F68AD9B00DCA59F /* ManualLayoutPractice */,
 			);
 		};
 /* End PBXProject section */
@@ -141,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49826D51F68AD9B00DCA59F /* LaunchScreen.storyboard in Resources */,
-				E49826E01F68AE1600DCA59F /* ViewController.xib in Resources */,
 				E49826D21F68AD9B00DCA59F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,9 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49826CD1F68AD9B00DCA59F /* ViewController.swift in Sources */,
 				E4108CD01F69B03700EBFF27 /* BViewController.swift in Sources */,
-				E4108CD21F69D68200EBFF27 /* CViewController.swift in Sources */,
 				E49826DE1F68ADD600DCA59F /* AViewController.swift in Sources */,
 				E49826CB1F68AD9B00DCA59F /* AppDelegate.swift in Sources */,
 			);
@@ -274,9 +262,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ManualLayoutExam/Info.plist;
+				INFOPLIST_FILE = ManualLayoutPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buildschool.ManualLayoutExam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buildschool.ManualLayoutPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,9 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ManualLayoutExam/Info.plist;
+				INFOPLIST_FILE = ManualLayoutPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buildschool.ManualLayoutExam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buildschool.ManualLayoutPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E49826C21F68AD9B00DCA59F /* Build configuration list for PBXProject "ManualLayoutExam" */ = {
+		E49826C21F68AD9B00DCA59F /* Build configuration list for PBXProject "ManualLayoutPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49826D71F68AD9B00DCA59F /* Debug */,
@@ -306,7 +294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E49826D91F68AD9B00DCA59F /* Build configuration list for PBXNativeTarget "ManualLayoutExam" */ = {
+		E49826D91F68AD9B00DCA59F /* Build configuration list for PBXNativeTarget "ManualLayoutPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E49826DA1F68AD9B00DCA59F /* Debug */,

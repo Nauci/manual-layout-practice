@@ -14,13 +14,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let aVC = AViewController()
+        let bVC = BViewController()
+
+        let aNav = UINavigationController(rootViewController: aVC)
+        let bNav = UINavigationController(rootViewController: bVC)
+
+        aNav.navigationBar.isTranslucent = false
+        bNav.navigationBar.isTranslucent = false
+
+        let tab = UITabBarController()
+        tab.addChildViewController(aNav)
+        tab.addChildViewController(bNav)
+
         self.window = UIWindow()
-        let vc = ViewController()
-        let nav = UINavigationController(rootViewController: vc)
-        self.window?.rootViewController = nav
-        nav.navigationBar.isTranslucent = false
+        self.window?.rootViewController = tab
         self.window?.makeKeyAndVisible()
+
         return true
     }
 
