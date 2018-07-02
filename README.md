@@ -1,9 +1,11 @@
-This is the exam for testing your knowledge of manual layout. If you run this application cleanly, you will find a root view controller with buttons A and B which navigate to view controllers A and B respectively. Using manual layout, you will create layouts for AViewController and BViewController
+This is a practice project for manual layout.
 
-Screen 1 - AViewController
-Mock: https://zpl.io/VQ0Www5
+Screen 1 - AViewController  
+Mock: https://projects.invisionapp.com/d/main#/console/14730748/306300834/preview    
 Try to set up a view hierarchy that makes sense. Have the red box be the superview of the green, etc.
 
-Screen 2 - BViewController
-Mock: https://zpl.io/VDlDyDw
+Screen 2 - BViewController  
+Mock: https://projects.invisionapp.com/d/main#/console/14730748/306300839/preview
+
+Good luck!
 
