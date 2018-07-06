@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91E9F4D20EF510E00ED5ED3 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91E9F4C20EF510E00ED5ED3 /* AViewController.xib */; };
+		A91E9F4F20EF516900ED5ED3 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91E9F4E20EF516900ED5ED3 /* BViewController.xib */; };
 		E4108CD01F69B03700EBFF27 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4108CCF1F69B03700EBFF27 /* BViewController.swift */; };
 		E49826CB1F68AD9B00DCA59F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49826CA1F68AD9B00DCA59F /* AppDelegate.swift */; };
 		E49826D21F68AD9B00DCA59F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49826D11F68AD9B00DCA59F /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A91E9F4C20EF510E00ED5ED3 /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		A91E9F4E20EF516900ED5ED3 /* BViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
 		E4108CCF1F69B03700EBFF27 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		E49826C71F68AD9B00DCA59F /* ManualLayoutPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualLayoutPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49826CA1F68AD9B00DCA59F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				E49826DD1F68ADD600DCA59F /* AViewController.swift */,
+				A91E9F4C20EF510E00ED5ED3 /* AViewController.xib */,
 				E4108CCF1F69B03700EBFF27 /* BViewController.swift */,
+				A91E9F4E20EF516900ED5ED3 /* BViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -132,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49826D51F68AD9B00DCA59F /* LaunchScreen.storyboard in Resources */,
+				A91E9F4F20EF516900ED5ED3 /* BViewController.xib in Resources */,
+				A91E9F4D20EF510E00ED5ED3 /* AViewController.xib in Resources */,
 				E49826D21F68AD9B00DCA59F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
